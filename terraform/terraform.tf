@@ -34,6 +34,16 @@ terraform {
 
   required_version = "~> 1.6.3"
 }
+
+locals {
+  common_tags = {
+    project = "vprofile"
+    owner   = "darosa87"
+    business_unit = "engineering"
+    service = "shoping kart"
+    Environment = "DEV"
+  }
+}
 ##
 ##
 ##
