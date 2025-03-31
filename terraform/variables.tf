@@ -9,3 +9,9 @@ variable "clusterName" {
   type        = string
   default     = "vprofile-aks"
 }
+
+variable "vpc_id" {
+  description = "VPC ID"
+  type        = string
+  default     = "vpc-0b4b2d87a6d3a4e7f"
+}
