@@ -42,6 +42,7 @@ locals {
     business_unit = "engineering"
     service = "shoping kart"
     Environment = "DEV"
+    team = "devops"
   }
 }
 ##
