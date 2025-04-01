@@ -35,4 +35,5 @@ module "eks" {
       desired_size = 1
     }
   }
+  tags = local.common_tags
 }
